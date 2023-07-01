@@ -2,6 +2,8 @@
 fun main() {
     greeting("rakib", 18)
     greeting("Zamil", 15)
+    /*Named Arguments*/
+    greeting(age = 15, name = "Yesmin")
 }
 
 /*function with Parameters*/
