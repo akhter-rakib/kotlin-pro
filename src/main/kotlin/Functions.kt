@@ -7,7 +7,7 @@ fun main() {
 }
 
 /*function with Parameters*/
-fun greeting(name: String, age: Int) {
+fun greeting(name: String, age: Int, email: String = "default@mail") {
     println("Hello $name")
     if (age >= 16) {
         println("$name is an adult")
