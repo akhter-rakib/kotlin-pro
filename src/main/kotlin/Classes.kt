@@ -6,10 +6,16 @@ fun main() {
     val ac = SmartDevice()
     ac.brand = "General"
     ac.price = 126.45
+    println(ac.price)
 }
 
 /*Blue Print*/
 class SmartDevice {
     var brand: String = ""
+        get() = field
+        set(value) {
+            field = value
+        }
     var price: Double = 0.0
+        get() = 23.45
 }
